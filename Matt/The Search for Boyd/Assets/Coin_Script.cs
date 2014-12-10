@@ -6,7 +6,7 @@ public class Coin_Script : MonoBehaviour
 	private ScoreScript scoreScript;
 
 	// Use this for initialization
-	void Awake () 
+	void Start () 
 	{
 		scoreScript = GameObject.Find ("score").GetComponent<ScoreScript>();
 	}
