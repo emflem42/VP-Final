@@ -3,8 +3,11 @@ using System.Collections;
 
 public class ItemScript : MonoBehaviour 
 {
+	public Inventory inventory;
 	public GameObject[] itemArray = new GameObject[10];
 	public int counter = 0;
+	public string inventoryObject; //adjust to gameObject
+
 	//public bool isActive;
 
 	// Use this for initialization
@@ -27,7 +30,10 @@ public class ItemScript : MonoBehaviour
 		Debug.Log("You picked up: " + itemArray[counter].name);
 		counter ++;
 
+
 		this.gameObject.SetActive (false);
+		inventoryObject = gameObject.name;
+
 			//Debug.Log ("THIS ITEM IS COLLECTED");
 		//isActive = false;
 
