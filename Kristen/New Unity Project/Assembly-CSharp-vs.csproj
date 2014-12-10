@@ -49,6 +49,8 @@
      <Compile Include="Assets\DoorScript.cs" />
      <Compile Include="Assets\DoorScript2.cs" />
      <Compile Include="Assets\MovingEnemy.cs" />
+     <Compile Include="Assets\Player.cs" />
+     <Compile Include="Assets\Projection.cs" />
      <Compile Include="Assets\Trigger.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
