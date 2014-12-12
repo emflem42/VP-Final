@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Coin_Script.cs" />
+     <Compile Include="Assets\Inventory.cs" />
      <Compile Include="Assets\ItemScript.cs" />
      <Compile Include="Assets\ScoreScript.cs" />
      <Compile Include="Assets\tempPlayer.cs" />
